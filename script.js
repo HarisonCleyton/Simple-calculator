@@ -103,10 +103,10 @@ document.addEventListener('keydown', function(evnt) {
 
   console.log(evnt.key)
 
-  if (evnt.key == 'Enter') {
+ /* if (evnt.key == 'Enter') {
     calculateNumbers();
     return;
-  }
+  }*/
 
   //caso a key seja Backspace ele apaga.
   if (evnt.key == 'Backspace') {
