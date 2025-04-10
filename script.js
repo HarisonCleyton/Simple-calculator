@@ -101,7 +101,7 @@ document.addEventListener('keydown', function(evnt) {
       break;
   }
 
-  console.log(evnt.key)
+  //console.log(evnt.key)
 
  /* if (evnt.key == 'Enter') {
     calculateNumbers();
