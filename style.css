@@ -11,6 +11,10 @@ body {
   margin-inline: auto;
 }
 
+.common_button:focus {
+  outline: none;
+}
+
 .buttons {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
