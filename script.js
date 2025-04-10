@@ -118,7 +118,7 @@ document.addEventListener('keydown', function(evnt) {
 //Utilizando a biblioteca math.js (https://mathjs.org/)
 function calculateNumbers() {
 
-  if (display.value == undefined || display.value == null) return;
+  if (display.value == '' || display.value == undefined || display.value == null) return;
   
   try {
     //math.evaluate calcula o display.
